@@ -35,7 +35,7 @@ cp config.example.json config.json
 ## 使い方
 
 ```bash
-node inject-script.js
+node inject-script.mjs
 ```
 
 このコマンドを実行すると：
