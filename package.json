@@ -1,0 +1,14 @@
+{
+  "name": "vivaldi-custom-script-injector",
+  "version": "1.0.0",
+  "description": "install custom script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-html-parser": "^7.0.1"
+  }
+}
