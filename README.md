@@ -1,6 +1,6 @@
 # vivaldi-custom-script-injector
 
-Vivaldiブラウザにカスタムスクリプトを自動で注入するツールです。
+Vivaldi ブラウザにカスタムスクリプトを自動で注入するツールです。
 
 ## セットアップ
 
@@ -29,7 +29,7 @@ cp config.example.json config.json
 }
 ```
 
-- `vivaldiBasePath`: Vivaldiのインストールディレクトリ
+- `vivaldiBasePath`: Vivaldi のインストールディレクトリ
 - `customScriptDir`: カスタムスクリプトを保存しているディレクトリ
 
 ## 使い方
@@ -40,11 +40,11 @@ node inject-script.mjs
 
 このコマンドを実行すると：
 
-1. Vivaldiの最新バージョンディレクトリを自動検出
-2. `customScriptDir` 内の全ファイルをVivaldiのリソースディレクトリにコピー
+1. Vivaldi の最新バージョンディレクトリを自動検出
+2. `customScriptDir` 内の全ファイルを Vivaldi のリソースディレクトリにコピー
 3. `.js` ファイルについて、`window.html` に `<script>` タグを自動追加
 4. 変更前の `window.html` は自動でバックアップ
 
 ## 注意事項
 
-- Vivaldiを更新した場合は、再度このスクリプトを実行する必要があります
+- Vivaldi を更新した場合は、再度このスクリプトを実行する必要があります
